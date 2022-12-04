@@ -34,7 +34,7 @@ func UseIt(sized Sized) {
 	sized.SetHeight(10)
 	expectedArea := 10 * width
 	actualArea := sized.GetWidth() * sized.GetHeight()
-	fmt.Print("Expected an area of ", expectedArea, ", but got ", actualArea, "\n")
+	_, _ = fmt.Printf("Expected an area of %s but is %s\n", expectedArea, actualArea)
 }
 
 type Square struct {
