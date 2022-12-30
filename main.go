@@ -1,6 +1,6 @@
 package main
 
-import "design-patterns-go/bridge"
+import "design-patterns-go/composite"
 
 func main() {
 	// solid.ExecutesLSP()
@@ -9,5 +9,7 @@ func main() {
 	// solid.ExecuteDIP()
 	// singleton.ExecuteSingleton()
 	// adapter.RunAdapter()
-	bridge.RunBridge()
+	// bridge.RunBridge()
+	// composite.RunComposite()
+	composite.RunNeuronNetworks()
 }
