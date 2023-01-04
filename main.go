@@ -1,6 +1,6 @@
 package main
 
-import "design-patterns-go/composite"
+import "design-patterns-go/decorator"
 
 func main() {
 	// solid.ExecutesLSP()
@@ -11,5 +11,7 @@ func main() {
 	// adapter.RunAdapter()
 	// bridge.RunBridge()
 	// composite.RunComposite()
-	composite.RunNeuronNetworks()
+	// composite.RunNeuronNetworks()
+	// decorator.RunMultipleDecorator()
+	decorator.RunDecorator()
 }
